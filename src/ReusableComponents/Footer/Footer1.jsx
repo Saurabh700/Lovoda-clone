@@ -3,7 +3,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
-import styles from "./Styles/Footer1.module.css";
+import styles from "./Footer1.module.css";
 import React from "react";
 import {
   Box,
@@ -61,9 +61,11 @@ const Footer1 = () => {
               Need to talk? Reach us via email, phone or text!
             </h2>
             <h2 className={styles.contact}>
-              <p>Email: Customerservice@Lovoda.com</p>
-              <p>Phone: (443) 500-1200</p>
-              <h2>**Msg & data rates may apply</h2>
+              <p className={styles.contactInfo}>
+                Email: Customerservice@Lovoda.com
+              </p>
+              <p className={styles.contactInfo}>Phone: (443) 500-1200</p>
+              <p className={styles.italic}>**Msg & data rates may apply</p>
             </h2>
           </Box>
           <Flex className={styles.socialIcons}>

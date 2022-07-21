@@ -1,14 +1,15 @@
 import "./App.css";
-import Footer2 from "./ReusableComponents/Footer2";
-import Footer1 from "./ReusableComponents/Footer";
-import Header from "./ReusableComponents/Header";
-import Home from "./Pages/Home";
+import Footer2 from "./ReusableComponents/Footer/Footer2";
+import Footer1 from "./ReusableComponents/Footer/Footer1";
+import Header from "./ReusableComponents/Header/Header";
+import AllRoutes from "./Routing/AllRoutes";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      {/* <Home /> */}
+      <AllRoutes />
       <Footer1 />
       <Footer2 />
     </div>

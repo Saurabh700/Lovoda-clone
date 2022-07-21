@@ -34,7 +34,18 @@
 .routes > * {
   font-size: 12px;
 }
-.link {
+
+.activeStyle {
   font-size: 14px;
   letter-spacing: 0.5px;
+  border-bottom: 1px solid black;
+}
+
+.baseStyle {
+  border-bottom: 1px solid white;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.baseStyle:hover {
+  border-bottom: 1px solid black;
 }

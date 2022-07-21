@@ -3,6 +3,9 @@
   height: 491px;
   /* margin: 10px; */
   box-sizing: border-box;
+  margin: auto;
+  margin-bottom: -40px;
+  /* position: absolute; */
   /* border: 1px solid black; */
 }
 .grid {
@@ -62,4 +65,39 @@
 .hoverAnimation img.imgFront:hover {
   opacity: 0;
   cursor: pointer;
+}
+.wishBack {
+  width: 32px;
+  height: 32px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  position: relative;
+  top: -88.5%;
+  left: 0px;
+}
+.emptyHeartAlone {
+  top: -93.6%;
+  left: -44%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: #c9ac92;
+}
+/* .emptyHeart {
+  top: -93.5%;
+  left: 0%;
+  /* left: 35%; */
+/* width: 25px;
+  height: 25px;
+  position: relative;
+  color: #c9ac92;
+} */
+.filledHeart {
+  top: -93.6%;
+  position: relative;
+  left: -44%;
+  /* left: 35%; */
+  width: 25px;
+  height: 25px;
+  color: #c9ac92;
 }

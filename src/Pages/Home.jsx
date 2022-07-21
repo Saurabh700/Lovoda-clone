@@ -2,8 +2,8 @@ import styles from "./Styles/Home.module.css";
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import data from "./Styles/switchBoxData.json";
-import SwitchBox from "../ReusableComponents/SwitchBox";
-import HoverImgTxt from "../ReusableComponents/HoverImgTxt";
+import SwitchBox from "../ReusableComponents/ImgCard/ImgCard1/SwitchBox";
+import HoverImgComponent from "../ReusableComponents/ImgCard/ImgCard2/HoverImgComponent";
 
 const Home = () => {
   return (
@@ -24,9 +24,9 @@ const Home = () => {
 
       {/* ----------------------------------- */}
       <Box>
-        <h1>SHOP THE FEED</h1>
-        <p>Tag us on instagram @LavodaShop or #Lavoda</p>
-        <HoverImgTxt />
+        <h1 className={styles.shopfeed}>SHOP THE FEED</h1>
+        <p className={styles.tag}>Tag us on instagram @LavodaShop or #Lavoda</p>
+        <HoverImgComponent />
       </Box>
     </div>
   );

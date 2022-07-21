@@ -1,8 +1,10 @@
 .wrapper {
   height: 666px;
   width: 1150px;
-  /* margin: 10px; */
+  display: flex;
   box-sizing: border-box;
   /* border: 1px solid black; */
+  box-sizing: border-box;
   margin: auto;
+  margin-bottom: 150px;
 }

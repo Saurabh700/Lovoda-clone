@@ -54,7 +54,11 @@
 .grid {
   height: 1070px;
   width: 1150px;
-  padding: 28px 50px 50px 36px;
+  /* padding: 28px 50px 36px 50px; */
+  padding-top: 28px;
+  padding-right: 50px;
+  padding-bottom: 36px;
+  padding-left: 25px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -110,4 +114,19 @@
 .hoverAnimation img.imgFront:hover {
   opacity: 0;
   cursor: pointer;
+}
+.shopfeed {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 52px;
+}
+.tag {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

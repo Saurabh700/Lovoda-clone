@@ -1,6 +1,6 @@
 import { Flex, Icon } from "@chakra-ui/react";
 import React from "react";
-import styles from "./Styles/Footer2.module.css";
+import styles from "./Footer2.module.css";
 import { BiCopyright } from "react-icons/bi";
 
 const Footer2 = () => {

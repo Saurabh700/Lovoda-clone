@@ -66,16 +66,22 @@
   text-align: left;
   margin-bottom: 25px;
 }
+.italic {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
 .contact > p {
   margin-bottom: 25px;
+  text-align: left;
+}
+.contactInfo {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.6px;
-  text-align: left;
 }
-.contact > h2 {
-  text-align: left;
-}
+
 .socialIcons {
   position: relative;
   width: 100px;
@@ -87,6 +93,9 @@
 .icon {
   margin: 10px;
 }
-.contact > h2 {
+.italic {
   font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
 }
