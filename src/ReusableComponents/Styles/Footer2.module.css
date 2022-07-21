@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding-top: 10px;
+}
+
+.paymentCard {
+  /* border: 1px solid black; */
+  margin-top: auto;
+  width: 500px;
+  height: 70px;
+  margin: auto;
+}
+.icon {
+  /* border: 1px solid black; */
+  color: rgba(18, 18, 18, 0.75);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}

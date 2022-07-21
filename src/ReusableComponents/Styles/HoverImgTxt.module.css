@@ -1,0 +1,8 @@
+.wrapper {
+  height: 666px;
+  width: 1150px;
+  /* margin: 10px; */
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  margin: auto;
+}

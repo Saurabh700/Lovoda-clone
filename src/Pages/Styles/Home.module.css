@@ -1,0 +1,113 @@
+.wrap {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+.banner {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+.banner > h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 450px;
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+.banner > h2 {
+  letter-spacing: 0.6px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 17px;
+}
+.banner > a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid white;
+  width: 120px;
+  height: 45px;
+  margin: auto;
+  margin-top: 20px;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(https://cdn.shopify.com/s/files/1/0627/7388/7215/files/13122-2_3000x.jpg?v=1645120932)
+      center/cover no-repeat;
+}
+
+/* ---------------------Card----------------- */
+
+.wrapper {
+  width: 269px;
+  height: 491px;
+  /* margin: 10px; */
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+.grid {
+  height: 1070px;
+  width: 1150px;
+  padding: 28px 50px 50px 36px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+.figure {
+  width: 269px;
+  float: left;
+  margin: 0;
+}
+.figcaption {
+  text-align: left;
+}
+
+.figcaption p {
+  width: 90%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.link {
+  /* margin: 25px 0; */
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.hoverAnimation {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin: 10px auto 0;
+  color: #fff;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); */
+}
+.hoverAnimation img {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 267px;
+  height: 400px;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -ms-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.hoverAnimation img.imgFront:hover {
+  opacity: 0;
+  cursor: pointer;
+}
