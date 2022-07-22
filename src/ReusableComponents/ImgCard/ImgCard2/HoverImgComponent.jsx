@@ -12,7 +12,7 @@ const HoverImgComponent = () => {
         className={styles.wrapper}
         templateRows="repeat(3, 1fr)"
         templateColumns="repeat(5, 1fr)"
-        gap={4}
+        gap={3}
       >
         <GridItem rowSpan={2} colSpan={2} bg="teal">
           {<HoverImgCard item={data[0]} />}

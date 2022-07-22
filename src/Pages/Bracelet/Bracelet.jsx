@@ -12,15 +12,15 @@ import {
   Select,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import styles from "./New.module.css";
+import styles from "./Bracelet.module.css";
 import { AiOutlineDown } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsCurrencyDollar } from "react-icons/bs";
-import data from "./NewData.json";
+import data from "./BraceletData.json";
 import SwitchBox from "../../ReusableComponents/ImgCard/ImgCard1/SwitchBox";
 import { NavLink } from "react-router-dom";
 
-const New = () => {
+const Bracelet = () => {
   const [prodData, setProdData] = useState(data);
   const handleChange = (e) => {
     let val = e.target.value;
@@ -39,7 +39,7 @@ const New = () => {
   };
   return (
     <div className={styles.wrapper}>
-      <div className={styles.new}>New</div>
+      <div className={styles.new}>Bracelet</div>
       <div className={styles.filter}>
         <div className={styles.align}>
           <p>Filter:</p>
@@ -148,15 +148,18 @@ const New = () => {
 
       {/* -------------------- */}
 
-      {/* <Box className={styles.grid}>
-        {data.map((item) => (
-          <SwitchBox key={item.id} {...item} />
-        ))}
-      </Box> */}
+      {/* {data.map((item) => (
+        <div key={item.id}>
+          <Link to={`/phalana/${item.id}`}>
+            <img src={item.avatar} alt="" />
+          </Link>
+        </div>
+      ))} */}
+
       <Box className={styles.grid}>
         {prodData.map((item) => (
           <div key={item.id}>
-            <NavLink to={`/collections/new/${item.id}`}>
+            <NavLink to={`/collections/bracelet/${item.id}`}>
               <SwitchBox key={item.id} {...item} />
             </NavLink>
           </div>
@@ -173,4 +176,4 @@ const New = () => {
   );
 };
 
-export default New;
+export default Bracelet;

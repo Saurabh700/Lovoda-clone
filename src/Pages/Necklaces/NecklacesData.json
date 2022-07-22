@@ -1,0 +1,114 @@
+[
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200075_1__49801_533x.jpg?v=1645115320",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200075_M_2__01411_533x.jpg?v=1645115322",
+    "name": "Crystal Clear Hook Necklace (14K)",
+    "price": "14.00",
+    "id": "1"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020700063-G-2__84439_533x.jpg?v=1645114991",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020700063-G-5__79963_533x.jpg?v=1645114993",
+    "name": "Refined Stud Necklace",
+    "price": "21.00",
+    "id": "2"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100463-1__46464_533x.jpg?v=1645112739",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100463-3__29850_533x.jpg?v=1645112741",
+    "name": "Terrace Drop Necklace",
+    "price": "25.00",
+    "id": "3"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201011-2__52444_533x.jpg?v=1645116103",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201011-3__04676_533x.jpg?v=1645116105",
+    "name": "Textile Drop Necklace | Houndstooth",
+    "price": "25.00",
+    "id": "4"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201010-1__26041_533x.jpg?v=1645116374",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201010-3__55417_533x.jpg?v=1645116376",
+    "name": "Textile Drop Necklace | Checkered",
+    "price": "25.00",
+    "id": "5"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201006-2__28603_533x.jpg?v=1645116368",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201006-3__15448_533x.jpg?v=1645116370",
+    "name": "Terrace Drop Necklace | Florals",
+    "price": "25.00",
+    "id": "6"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020400079-3__32862_533x.jpg?v=1645115394",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/IMG_5090__61478_533x.jpg?v=1645115397",
+    "name": "Terrace Drop Necklace | Specks",
+    "price": "25.00",
+    "id": "7"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100370-2__34904_533x.jpg?v=1645113593",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200058__13997_533x.jpg?v=1645113595",
+    "name": "Jelly Hoop Necklace",
+    "price": "25.00",
+    "id": "8"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020500260-3__68569_533x.jpg?v=1645112652",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020500259-4__26964_533x.jpg?v=1645112654",
+    "name": "Regal Hoop Necklace",
+    "price": "82.00",
+    "id": "9"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201005-2__41179_533x.jpg?v=1645115930",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201005-3__67325_533x.jpg?v=1645115932",
+    "name": "Heartbreaker Dagle Necklace",
+    "price": "72.00",
+    "id": "10"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100565-2__58904_533x.jpg?v=1645114959",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100565-4__69487_533x.jpg?v=1645114961",
+    "name": "Glacier Hoop Necklace | Pine",
+    "price": "52.00",
+    "id": "11"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100562_2__87633_533x.jpg?v=1645115402",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100562-4__94244_533x.jpg?v=1645115404",
+    "name": "Glacier Hoop Necklace | Wine",
+    "price": "52.00",
+    "id": "12"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100370-4__34001_533x.jpg?v=1645111641",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100369-3__28478_533x.jpg?v=1645111643",
+    "name": "Glacier Hoop Necklace | Ocean",
+    "price": "52.00",
+    "id": "13"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200068-1__84305_533x.jpg?v=1645114242",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200068-5__58390_533x.jpg?v=1645114243",
+    "name": "Glacier Hoop Necklace | Clear",
+    "price": "52.00",
+    "id": "14"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020600050-2__02253_533x.jpg?v=1648824851",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020600050-3__52178_533x.jpg?v=1648824851",
+    "name": "Adela Drop Necklace",
+    "price": "52.00",
+    "id": "15"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020100370-2__34904_533x.jpg?v=1645113593",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020200058__13997_533x.jpg?v=1645113595",
+    "name": "Fawn Pearl Hoop Necklace",
+    "price": "30.00",
+    "id": "16"
+  }
+]

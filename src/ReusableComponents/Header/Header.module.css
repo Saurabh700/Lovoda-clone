@@ -49,3 +49,15 @@
 .baseStyle:hover {
   border-bottom: 1px solid black;
 }
+.specialWidth {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  letter-spacing: 0.5px;
+  width: 60px;
+}
+.specialWidth2 {
+  font-size: 14px;
+  /* border: 1px solid black; */
+  letter-spacing: 0.5px;
+  width: 80px;
+}

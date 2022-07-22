@@ -53,20 +53,17 @@ import { NavLink } from "react-router-dom";
 //   },
 // ];
 
-// const activeStyle = {
-//   fontSize: "14px",
-//   letterSpacing: "0.5px",
-//   borderBottom: "1px solid black",
-// };
+const activeStyle = {
+  fontSize: "14px",
+  letterSpacing: "0.5px",
+  borderBottom: "1px solid black",
+};
 
-// const baseStyle = {
-//   borderBottom: "1px solid white",
-//   fontSize: "14px",
-//   letterSpacing: "0.5px",
-//   "&:hover": {
-//     borderBottom: "1px solid black",
-//   },
-// };
+const baseStyle = {
+  borderBottom: "1px solid white",
+  fontSize: "14px",
+  letterSpacing: "0.5px",
+};
 
 const Header = () => {
   return (
@@ -120,57 +117,66 @@ const Header = () => {
               ))} */}
               <NavLink
                 to="/"
-                // style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                // activeClassName={styles.activeStyle}
+                // className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
               >
                 Home
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                // onFocus={styles.activeStyle}
+                // activeClassName={styles.activeStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // className={styles.baseStyle}
                 to="/collections/new"
               >
                 New
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                className={styles.specialWidth}
                 to="/collections/allproducts"
               >
                 Shop All
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                // className={styles.baseStyle}
                 to="/collections/earrings"
               >
                 Earrings
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                // className={styles.baseStyle}
                 to="/collections/necklaces"
               >
                 Necklaces
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                // className={styles.baseStyle}
                 to="/collections/bracelet"
               >
                 Bracelet
               </NavLink>
               <NavLink
                 to="/collections/rings"
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                // className={styles.baseStyle}
               >
                 Rings
               </NavLink>
               <NavLink
-                activeClassName={styles.activeStyle}
-                className={styles.baseStyle}
+                style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
+                // activeClassName={styles.activeStyle}
+                className={styles.specialWidth2}
+                // className={styles.baseStyle}
                 to="/collections/shopsocial"
               >
                 Shop Social
