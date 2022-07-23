@@ -11,6 +11,7 @@ const RingsPage = () => {
   const [count, setCount] = useState(1);
   //   console.log(params.id);
   let obj = data.filter((item) => item.id === params.id);
+  const [switchImg, setSwitchImg] = useState(false);
   // console.log(obj);
   return (
     <div style={{ marginBottom: "50px" }}>
@@ -19,9 +20,13 @@ const RingsPage = () => {
           style={{ textAlign: "left", fontWeight: "400", fontSize: "13px" }}
           className={styles.wrapper}
         >
-          <div className={styles.left}>
+          <div onClick={() => setSwitchImg(!switchImg)} className={styles.left}>
             {/* <img src={item.img1} alt="img1" /> */}
-            <img src={item.img2} alt="img2" />
+            {switchImg ? (
+              <img src={item.img2} alt="img2" />
+            ) : (
+              <img src={item.img1} alt="img1" />
+            )}
           </div>
           <div className={styles.right}>
             <h1>{item.name}</h1>

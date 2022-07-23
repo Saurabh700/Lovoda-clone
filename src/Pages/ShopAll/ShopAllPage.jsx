@@ -9,6 +9,7 @@ import { RiWechatLine } from "react-icons/ri";
 const ShopAllPage = () => {
   const params = useParams();
   const [count, setCount] = useState(1);
+  const [switchImg, setSwitchImg] = useState(false);
   //   console.log(params.id);
   let obj = data.filter((item) => item.id === params.id);
   // console.log(obj);
@@ -19,9 +20,13 @@ const ShopAllPage = () => {
           style={{ textAlign: "left", fontWeight: "400", fontSize: "13px" }}
           className={styles.wrapper}
         >
-          <div className={styles.left}>
+          <div onClick={() => setSwitchImg(!switchImg)} className={styles.left}>
             {/* <img src={item.img1} alt="img1" /> */}
-            <img src={item.img2} alt="img2" />
+            {switchImg ? (
+              <img src={item.img2} alt="img2" />
+            ) : (
+              <img src={item.img1} alt="img1" />
+            )}
           </div>
           <div className={styles.right}>
             <h1>{item.name}</h1>

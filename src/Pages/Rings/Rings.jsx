@@ -19,6 +19,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import data from "./RingsData.json";
 import SwitchBox from "../../ReusableComponents/ImgCard/ImgCard1/SwitchBox";
 import { NavLink } from "react-router-dom";
+import { Wishlist } from "../../ReusableComponents/WishlistTag";
 
 const Rings = () => {
   const [prodData, setProdData] = useState(data);
@@ -164,11 +165,26 @@ const Rings = () => {
       </Box>
       <Flex justifyContent="center">
         <Link p={5}>1</Link>
-        <Link p={5}>2</Link>
-        <Link p={5}>3</Link>
+        <Link
+          onClick={() =>
+            setProdData([...data.sort((a, b) => a.price - b.price)])
+          }
+          p={5}
+        >
+          2
+        </Link>
+        <Link
+          onClick={() =>
+            setProdData([...data.sort((a, b) => b.price - a.price)])
+          }
+          p={5}
+        >
+          3
+        </Link>
         <div style={{ marginTop: "20px", marginLeft: "5px" }}>...</div>
         <Link p={5}>23</Link>
       </Flex>
+      <Wishlist />
     </div>
   );
 };

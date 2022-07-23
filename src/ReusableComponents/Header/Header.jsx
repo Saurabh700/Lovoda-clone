@@ -1,57 +1,21 @@
-import { Flex, Heading, HStack, Icon } from "@chakra-ui/react";
+import {
+  Drawer,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerOverlay,
+  Flex,
+  Heading,
+  HStack,
+  Icon,
+  Input,
+  useDisclosure,
+} from "@chakra-ui/react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsBag } from "react-icons/bs";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.css";
-import { NavLink } from "react-router-dom";
-
-// const Path = [
-//   {
-//     to: "/",
-//     title: "Home",
-//   },
-//   {
-//     to: "/collections/new",
-//     title: "New",
-//   },
-//   {
-//     to: "/collections/allproducts",
-//     title: "Shop All",
-//   },
-//   {
-//     to: "/collections/earrings",
-//     title: "Earrings",
-//   },
-//   {
-//     to: "/collections/necklaces",
-//     title: "Necklaces",
-//   },
-//   {
-//     to: "/collections/bracelet",
-//     title: "Bracelet",
-//   },
-//   {
-//     to: "/collections/rings",
-//     title: "Rings",
-//   },
-//   {
-//     to: "/collections/shopsocial",
-//     title: "Shop Social",
-//   },
-//   {
-//     to: "/account/login",
-//     title: "Login",
-//   },
-//   {
-//     to: "/account/register",
-//     title: "Register",
-//   },
-//   {
-//     to: "/cart",
-//     title: "Cart",
-//   },
-// ];
+import { NavLink, useNavigate } from "react-router-dom";
 
 const activeStyle = {
   fontSize: "14px",
@@ -66,6 +30,99 @@ const baseStyle = {
 };
 
 const Header = () => {
+  const navigate = useNavigate();
+  function SearchDrawer() {
+    const { isOpen, onOpen, onClose } = useDisclosure();
+    const btnRef = React.useRef();
+    const [query, setQuery] = useState("");
+
+    return (
+      <>
+        {/* <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
+          Open
+        </Button> */}
+
+        <Icon
+          onClick={onOpen}
+          ref={btnRef}
+          className={styles.icon}
+          mb="5px"
+          ml="260px"
+          color="rgba(18, 18, 18, 0.75)"
+          as={AiOutlineSearch}
+          h={5}
+          w={5}
+        />
+        <Drawer
+          isOpen={isOpen}
+          placement="top"
+          onClose={onClose}
+          finalFocusRef={btnRef}
+        >
+          <DrawerOverlay />
+          <DrawerContent h="150px">
+            <DrawerCloseButton border="none" mt="-2" />
+            <Flex className={styles.top}>
+              Free Shipping on Orders Over $75 and Free Returns (US ONLY)
+            </Flex>
+            <hr />
+            <div
+              style={{ width: "500px", margin: "auto", height: "150px" }}
+              // display="flex"
+              // w="500px"
+              // m="auto"
+              // h="150px"
+              // border="1px solid white"
+            >
+              <div
+                style={{
+                  position: "relative",
+                  width: "70%",
+                  top: "35px",
+                  margin: "auto",
+                  border: "1px solid black",
+                }}
+              >
+                <Input
+                  // m="auto"
+                  // w="100%"
+                  // mt="25px"
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="Search... "
+                  borderRadius="0"
+                  onKeyDownCapture={(e) => {
+                    console.log(e, "btn");
+                    if (e.key === "Enter") {
+                      navigate(`/collections/${query}`);
+                    }
+                  }}
+                />
+              </div>
+              {/* <Button
+                disabled={!query}
+                w="20px"
+                variant="outline"
+                mt={7}
+                >
+              </Button> */}
+              <Icon
+                onClick={() => navigate(`/collections/${query}`)}
+                className={styles.icon}
+                mb="5px"
+                ml="435px"
+                position="relative"
+                top="3px"
+                color="rgba(18, 18, 18, 0.75)"
+                as={AiOutlineSearch}
+                h={5}
+                w={5}
+              />
+            </div>
+          </DrawerContent>
+        </Drawer>
+      </>
+    );
+  }
   return (
     <div className={styles.header}>
       <div>
@@ -110,11 +167,6 @@ const Header = () => {
               fontSize="12px"
               p="10px"
             >
-              {/* {Path.map((item) => (
-                <NavLink to={item.to} key={item.to} className={styles.link}>
-                  {item.title}
-                </NavLink>
-              ))} */}
               <NavLink
                 to="/"
                 // activeClassName={styles.activeStyle}
@@ -125,16 +177,13 @@ const Header = () => {
               </NavLink>
               <NavLink
                 // onFocus={styles.activeStyle}
-                // activeClassName={styles.activeStyle}
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // className={styles.baseStyle}
                 to="/collections/new"
               >
                 New
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
                 className={styles.specialWidth}
                 to="/collections/allproducts"
               >
@@ -142,24 +191,18 @@ const Header = () => {
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
-                // className={styles.baseStyle}
                 to="/collections/earrings"
               >
                 Earrings
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
-                // className={styles.baseStyle}
                 to="/collections/necklaces"
               >
                 Necklaces
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
-                // className={styles.baseStyle}
                 to="/collections/bracelet"
               >
                 Bracelet
@@ -167,23 +210,20 @@ const Header = () => {
               <NavLink
                 to="/collections/rings"
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
-                // className={styles.baseStyle}
               >
                 Rings
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
-                // activeClassName={styles.activeStyle}
                 className={styles.specialWidth2}
-                // className={styles.baseStyle}
                 to="/collections/shopsocial"
               >
                 Shop Social
               </NavLink>
             </HStack>
           </Flex>
-          <Icon
+          <SearchDrawer />
+          {/* <Icon
             className={styles.icon}
             mb="5px"
             ml="260px"
@@ -191,23 +231,27 @@ const Header = () => {
             as={AiOutlineSearch}
             h={5}
             w={5}
-          />
-          <Icon
-            className={styles.icon}
-            mb="5px"
-            color="rgba(18, 18, 18, 0.75)"
-            as={AiOutlineUser}
-            h={5}
-            w={5}
-          />
-          <Icon
-            className={styles.icon}
-            mb="5px"
-            color="rgba(18, 18, 18, 0.75)"
-            as={BsBag}
-            h={5}
-            w={5}
-          />
+          /> */}
+          <NavLink to="/account/login">
+            <Icon
+              className={styles.icon}
+              mt="4px"
+              color="rgba(18, 18, 18, 0.75)"
+              as={AiOutlineUser}
+              h={5}
+              w={5}
+            />
+          </NavLink>
+          <NavLink to="/cart">
+            <Icon
+              className={styles.icon}
+              mb="0px"
+              color="rgba(18, 18, 18, 0.75)"
+              as={BsBag}
+              h={5}
+              w={5}
+            />
+          </NavLink>
         </Flex>
       </div>
       <hr />
