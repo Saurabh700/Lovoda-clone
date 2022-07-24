@@ -1,0 +1,114 @@
+[
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401022-7-1_533x.jpg?v=1645729193",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401022-7-3_533x.jpg?v=1645729199",
+    "name": "Crystal Clear Hook Earing (14K)",
+    "price": "14.00",
+    "id": "1"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401014-7-1_533x.jpg?v=1645727998",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401014-7-3_533x.jpg?v=1645728002",
+    "name": "Refined Stud Earrings",
+    "price": "21.00",
+    "id": "2"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401020-7-1_533x.jpg?v=1645728953",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401020-7-3_533x.jpg?v=1645728959",
+    "name": "Terrace Drop Earrings",
+    "price": "25.00",
+    "id": "3"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401021-7-1_533x.jpg?v=1645729096",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401021-7-3_533x.jpg?v=1646420217",
+    "name": "Textile Drop Earrings | Houndstooth",
+    "price": "25.00",
+    "id": "4"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401024-7-1_533x.jpg?v=1645729404",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401024-7-3_533x.jpg?v=1645729420",
+    "name": "Textile Drop Earrings | Checkered",
+    "price": "25.00",
+    "id": "5"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/040500107-g_1_of_3__83424_533x.jpg?v=1645113381",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/040500098-4__56279_533x.jpg?v=1645113384",
+    "name": "Terrace Drop Earrings | Florals",
+    "price": "25.00",
+    "id": "6"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401023-7-1_533x.jpg?v=1645729304",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401023-7-3_533x.jpg?v=1645729312",
+    "name": "Terrace Drop Earrings | Specks",
+    "price": "25.00",
+    "id": "7"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/011000098-2__43894_533x.jpg?v=1645115759",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/011000098-3__52395_533x.jpg?v=1645115762",
+    "name": "Jelly Hoop Earrings",
+    "price": "25.00",
+    "id": "8"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401015-7-1_533x.jpg?v=1645728140",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401015-7-2_533x.jpg?v=1645728140",
+    "name": "Regal Hoop Earrings",
+    "price": "82.00",
+    "id": "9"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401011-7-1_533x.jpg?v=1645722854",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401011-7-3_533x.jpg?v=1646049249",
+    "name": "Heartbreaker Dagle Earrings",
+    "price": "72.00",
+    "id": "10"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401005-7-1__25318_533x.jpg?v=1645115953",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401005-7-3__71678_533x.jpg?v=1645115954",
+    "name": "Glacier Hoop Earrings | Pine",
+    "price": "52.00",
+    "id": "11"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401002-7-1__65640_533x.jpg?v=1645116385",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401002-7-3__41755_533x.jpg?v=1646420236",
+    "name": "Glacier Hoop Earrings | Wine",
+    "price": "52.00",
+    "id": "12"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201013-2__98789_533x.jpg?v=1645115942",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L201013-3__21594_533x.jpg?v=1645115943",
+    "name": "Glacier Hoop Earrings | Ocean",
+    "price": "52.00",
+    "id": "13"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/040300108-6-2__12126_533x.jpg?v=1650627952",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/040300108-6-3__19117_533x.jpg?v=1650627952",
+    "name": "Glacier Hoop Earrings | Clear",
+    "price": "52.00",
+    "id": "14"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401025-7-1_533x.jpg?v=1645729574",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401025-7-3_533x.jpg?v=1645729655",
+    "name": "Adela Drop Earrings",
+    "price": "52.00",
+    "id": "15"
+  },
+  {
+    "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401019-7-1_533x.jpg?v=1645728788",
+    "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L401019-7-3_533x.jpg?v=1645728794",
+    "name": "Fawn Pearl Hoop Earrings",
+    "price": "30.00",
+    "id": "16"
+  }
+]
