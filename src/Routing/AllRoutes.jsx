@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Bracelet from "../Pages/Bracelet/Bracelet";
 import BraceletPage from "../Pages/Bracelet/BraceletPage";
-import Cart from "../Pages/Cart";
+import Cart from "../Pages/Cart/Cart";
 import Earrings from "../Pages/Earrings/Earrings";
 import EarringsPage from "../Pages/Earrings/EarringsPage";
 import Home from "../Pages/Home/Home";

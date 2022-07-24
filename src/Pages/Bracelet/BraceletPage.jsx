@@ -8,6 +8,7 @@ import { RiWechatLine } from "react-icons/ri";
 
 const BraceletPage = () => {
   const params = useParams();
+
   const [count, setCount] = useState(1);
   //   console.log(params.id);
   let obj = data.filter((item) => item.id === params.id);

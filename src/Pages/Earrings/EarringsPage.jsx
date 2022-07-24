@@ -2,11 +2,33 @@ import React, { useState } from "react";
 import styles from "./EarringsPage.module.css";
 import data from "./EarringsData.json";
 import { useParams } from "react-router-dom";
-import { Icon } from "@chakra-ui/react";
+import { Icon, useToast } from "@chakra-ui/react";
 import { AiOutlineStar } from "react-icons/ai";
 import { RiWechatLine } from "react-icons/ri";
 
 const EarringsPage = () => {
+  <button style={{ padding: "5px 10px", margin: "5px" }}>Add to Cart</button>;
+  const toast = useToast();
+  function ToastExample() {
+    return (
+      <button
+        style={{ padding: "5px 10px", margin: "5px" }}
+        onClick={handleSubmit}
+      >
+        Add to Cart
+      </button>
+    );
+  }
+
+  const handleSubmit = () => {
+    toast({
+      title: "Item Added to Cart.",
+      description: "You have added this item to cart.",
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    });
+  };
   const params = useParams();
   const [count, setCount] = useState(1);
   const [switchImg, setSwitchImg] = useState(false);
@@ -121,9 +143,10 @@ const EarringsPage = () => {
                 +
               </div>
             </div>
-            <button style={{ padding: "5px 10px", margin: "5px" }}>
+            <ToastExample />
+            {/* <button style={{ padding: "5px 10px", margin: "5px" }}>
               Add to Cart
-            </button>
+            </button> */}
             <button style={{ padding: "5px 10px", margin: "5px" }}>
               Add to Wishlist
             </button>
