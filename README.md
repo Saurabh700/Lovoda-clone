@@ -34,11 +34,11 @@ Areas of Responsibilities:
 
 <br/>
 
-<img width="500px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/home.png?raw=true" />
-<img width="500px" align="right" marginTop="-500px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/new.png?raw=true" />
+<img width="380px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/home.png?raw=true" />
+<img width="380px" align="right" marginTop="-500px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/new.png?raw=true" />
 <br/>
-<img width="500px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/login.png?raw=true" />
-<img width="500px" align="right" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/prod.png?raw=true" />
+<img width="380px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/login.png?raw=true" />
+<img width="380px" align="right" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/prod.png?raw=true" />
 <br/>
-<img width="500px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/cart.png?raw=true" />
-<img width="500px" align="right" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/cart%20with%20item.png?raw=true" />
+<img width="380px" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/cart.png?raw=true" />
+<img width="380px" align="right" src="https://github.com/Saurabh700/Lovoda-clone/blob/main/src/Context/cart%20with%20item.png?raw=true" />
